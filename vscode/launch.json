@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "qemu-arch64",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "C:/Users/butaoke/Desktop/RTT/rt-thread/bsp/qemu-virt64-aarch64/rtthread.elf",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "miDebuggerPath": "F:/tool/arm-gnu-toolchain-aarch64-none-elf/bin/aarch64-none-elf-gdb.exe",
+            "miDebuggerServerAddress": "localhost:1234",
+            "serverLaunchTimeout": 2000,
+            "targetArchitecture": "ARM",
+            "MIMode": "gdb",
+            "customLaunchSetupCommands": [],
+            "launchCompleteCommand": "exec-run",
+        },
+    ]
+}

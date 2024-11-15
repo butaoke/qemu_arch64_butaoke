@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "os_application.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
